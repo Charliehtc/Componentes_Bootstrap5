@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Carousel</title>
+  </head>
+  <body>
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">Sobre mi</h4>
+              <p class="text-muted">Estudiante de una Certificación Técnica en Desarrollo Web Full Stack,
+                actualmente estoy en un curso de Diseño de paginas web con bootstrap.</p>
+              <p class="text-muted">En este curso he logrado aprender sobre como utilizar bootstrap y conocer sus diversas 
+                utilidades para el Desarrollo web.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contacto</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://www.ucreativa.com/" class="text-white">Universidad</a></li>
+                <li><a href="https://getbootstrap.com/" class="text-white">Bootstrap</a></li>
+                <li><a href="https://www.w3schools.com/" class="text-white">W3 Schools</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="../index.html" class="navbar-brand d-flex align-items-center">
+            <strong>Carlos M. Leiton U.</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" 
+          aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-12 col-md-8 mx-auto">
+            <h1 class="fw-light">Carousel</h1>
+            <p class="lead text-muted">Un Carousel es una espacion el el cual se puede presentar 
+              diversa infromacion de manera vistosa para el usuario asi como lo pueden ser imagenes</p>
+          </div>
+        </div>
+      </section>
+    
+      
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1">
+
+            <h2 class="text-center" id="mb50">Ejemplo de Carousel</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../asserts/img/img1-car.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../asserts/img/img2-car.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../asserts/img/img3-car.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    
+    </main>
+
+    <footer class="text-muted py-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="../index.html">Volver a la Pagina Principal</a>
+        </p>
+        <p class="mb-1">Carlos M. Leiton U. &copy; Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

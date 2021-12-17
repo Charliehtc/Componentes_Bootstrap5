@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Popovers</title>
+  </head>
+  <body>
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">Sobre mi</h4>
+              <p class="text-muted">Estudiante de una Certificación Técnica en Desarrollo Web Full Stack,
+                actualmente estoy en un curso de Diseño de paginas web con bootstrap.</p>
+              <p class="text-muted">En este curso he logrado aprender sobre como utilizar bootstrap y conocer sus diversas 
+                utilidades para el Desarrollo web.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contacto</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://www.ucreativa.com/" class="text-white">Universidad</a></li>
+                <li><a href="https://getbootstrap.com/" class="text-white">Bootstrap</a></li>
+                <li><a href="https://www.w3schools.com/" class="text-white">W3 Schools</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="../index.html" class="navbar-brand d-flex align-items-center">
+            <strong>Carlos M. Leiton U.</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-12 col-md-8 mx-auto">
+            <h1 class="fw-light">Popovers</h1>
+            <p class="lead text-muted">El popover es un tipo de cuadro emegentes que 
+              surge al enviar un evento como precionar un boton, funciona para notificar o avisar algo al usuario.</p>
+          </div>
+        </div>
+      </section>
+    
+      
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center" id="mb50">Ejemplos de Accordions</h2>
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1">
+
+            <div class="text-center" id="mb50">
+              <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Ejemplo Popover" data-bs-content="Esto es es Popover">Ver un Popover</button>
+            </div>
+
+            <div class="text-center">
+              <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Hola">
+                Popover Arriba
+              </button>
+              <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Hola">
+                Popover Derecha
+              </button>
+              <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Hola">
+                Popover Abajo
+              </button>
+              <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Hola">
+                Popover Izquierda
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    
+    </main>
+
+    <footer class="text-muted py-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="../index.html">Volver a la Pagina Principal</a>
+        </p>
+        <p class="mb-1">Carlos M. Leiton U. &copy; Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <script>
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+      })
+    </script>
+  </body>
+</html>

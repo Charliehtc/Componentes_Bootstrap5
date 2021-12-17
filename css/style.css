@@ -1,0 +1,35 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.card-body{
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#mb50{
+  margin-bottom: 50px;
+}
+
+#btn-offcanvas{
+  min-width: 256px;
+}
+
+.scrollspy1{
+  position: relative;
+  height: 200px;
+  margin-top: 0.5rem;
+  overflow: auto;
+}

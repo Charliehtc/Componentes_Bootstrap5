@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Buttons</title>
+  </head>
+  <body>
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">Sobre mi</h4>
+              <p class="text-muted">Estudiante de una Certificación Técnica en Desarrollo Web Full Stack,
+                actualmente estoy en un curso de Diseño de paginas web con bootstrap.</p>
+              <p class="text-muted">En este curso he logrado aprender sobre como utilizar bootstrap y conocer sus diversas 
+                utilidades para el Desarrollo web.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contacto</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://www.ucreativa.com/" class="text-white">Universidad</a></li>
+                <li><a href="https://getbootstrap.com/" class="text-white">Bootstrap</a></li>
+                <li><a href="https://www.w3schools.com/" class="text-white">W3 Schools</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="../index.html" class="navbar-brand d-flex align-items-center">
+            <strong>Carlos M. Leiton U.</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-12 col-md-8 mx-auto">
+            <h1 class="fw-light">Buttons</h1>
+            <p class="lead text-muted">Es un elemento cliqueable de tipo botón que puede ser 
+              utilizado en formularios o en cualquier parte de la página que necesite.</p>
+          </div>
+        </div>
+      </section>
+    
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center" id="mb50">Ejemplos de Buttons</h2>
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1">
+
+            <div class="text-center" style="margin-bottom: 25px;">
+              <h4><b>Botones Basicos</b></h4>
+              <button type="button" class="btn btn-primary">Boton 1</button>
+              <button type="button" class="btn btn-secondary">Boton 2</button>
+              <button type="button" class="btn btn-success">Aprovado</button>
+              <button type="button" class="btn btn-danger">Peligro</button>
+              <button type="button" class="btn btn-warning">Atencion</button>
+              <button type="button" class="btn btn-info">Info</button>
+              <button type="button" class="btn btn-light">Claro</button>
+              <button type="button" class="btn btn-dark">Oscuro</button>
+
+              <button type="button" class="btn btn-link">Link</button>
+            </div>
+
+            <div class="text-center" style="margin-bottom: 25px;">
+              <h4><b>Botones tags</b></h4>
+              <a class="btn btn-primary" href="#" role="button">Boton link</a>
+              <button class="btn btn-primary" type="submit">Boton</button>
+              <input class="btn btn-primary" type="button" value="Input">
+              <input class="btn btn-primary" type="submit" value="Submit">
+              <input class="btn btn-primary" type="reset" value="Reset">
+            </div>
+
+            <div class="text-center" style="margin-bottom: 25px;">
+              <h4><b>Botones outline</b></h4>
+              <button type="button" class="btn btn-outline-primary">Primary</button>
+              <button type="button" class="btn btn-outline-secondary">Secondary</button>
+              <button type="button" class="btn btn-outline-success">Success</button>
+              <button type="button" class="btn btn-outline-danger">Danger</button>
+              <button type="button" class="btn btn-outline-warning">Warning</button>
+              <button type="button" class="btn btn-outline-info">Info</button>
+              <button type="button" class="btn btn-outline-light">Light</button>
+              <button type="button" class="btn btn-outline-dark">Dark</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-12 col-md-8 mx-auto">
+            <h1 class="fw-light">Button group</h1>
+            <p class="lead text-muted">Es un conjunto de varios botones unidos ya sea de 
+              manera horizontal o vertical</p>
+          </div>
+        </div>
+      </section>
+    
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center" style="margin-bottom: 50px;">Ejemplos de Button group</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+            <div class="text-center" style="margin-bottom: 25px;">
+              <h4><b>Grupo de botones Basicos</b></h4>
+              <div class="btn-group">
+                <a href="#" class="btn btn-primary active" aria-current="page">Active link</a>
+                <a href="#" class="btn btn-primary">Link</a>
+                <a href="#" class="btn btn-primary">Link</a>
+              </div>
+            </div>
+
+            <div class="text-center" style="margin-bottom: 25px;">
+              <h4><b>Grupo de botones mixtos</b></h4>
+              <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                <button type="button" class="btn btn-danger">Left</button>
+                <button type="button" class="btn btn-warning">Middle</button>
+                <button type="button" class="btn btn-success">Right</button>
+              </div>
+            </div>
+
+            <div class="text-center" style="margin-bottom: 25px;">
+              <h4><b>Grupo de botones outline</b></h4>
+              <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <button type="button" class="btn btn-outline-primary">Left</button>
+                <button type="button" class="btn btn-outline-primary">Middle</button>
+                <button type="button" class="btn btn-outline-primary">Right</button>
+              </div>
+            </div>
+
+            <div class="text-center" style="margin-bottom: 25px;">
+              <h4><b>Grupo de botones checkbox</b></h4>
+              <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck1">Checkbox 1</label>
+              
+                <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck2">Checkbox 2</label>
+              
+                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck3">Checkbox 3</label>
+              </div>
+            </div>
+
+            <div class="text-center" style="margin-bottom: 25px;">
+              <h4><b>Grupo de botones toolbar</b></h4>
+              <div class="btn-toolbar justify-content-center" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group me-2" role="group" aria-label="First group">
+                  <button type="button" class="btn btn-primary">1</button>
+                  <button type="button" class="btn btn-primary">2</button>
+                  <button type="button" class="btn btn-primary">3</button>
+                  <button type="button" class="btn btn-primary">4</button>
+                </div>
+                <div class="btn-group me-2" role="group" aria-label="Second group">
+                  <button type="button" class="btn btn-secondary">5</button>
+                  <button type="button" class="btn btn-secondary">6</button>
+                  <button type="button" class="btn btn-secondary">7</button>
+                </div>
+                <div class="btn-group" role="group" aria-label="Third group">
+                  <button type="button" class="btn btn-info">8</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-center" style="margin-bottom: 25px;">
+              <h4><b>Grupo de botones nesting</b></h4>
+              <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                <button type="button" class="btn btn-primary">1</button>
+                <button type="button" class="btn btn-primary">2</button>
+              
+                <div class="btn-group" role="group">
+                  <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-12 col-md-8 mx-auto">
+            <h1 class="fw-light">Close Button</h1>
+            <p class="lead text-muted">Es un elemento cliqueable de tipo botón que usualmente puede ser 
+              utilizado para cerrar accesos, avisos y notificaciones etc </p>
+          </div>
+        </div>
+      </section>
+    
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center" style="margin-bottom: 50px;">Ejemplo de Close Buttons</h2>
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1">
+
+            <div class="text-center" style="margin-bottom: 25px;">
+              <button type="button" class="btn-close" aria-label="Close"></button>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    
+    </main>
+
+    <footer class="text-muted py-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="../index.html">Volver a la Pagina Principal</a>
+        </p>
+        <p class="mb-1">Carlos M. Leiton U. &copy; Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

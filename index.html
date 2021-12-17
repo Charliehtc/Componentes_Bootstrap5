@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Componentes Bootstrap</title>
+  </head>
+  <body>
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">Sobre mi</h4>
+              <p class="text-muted">Estudiante de una Certificación Técnica en Desarrollo Web Full Stack,
+                actualmente estoy en un curso de Diseño de paginas web con bootstrap.</p>
+              <p class="text-muted">En este curso he logrado aprender sobre como utilizar bootstrap y conocer sus diversas 
+                utilidades para el Desarrollo web.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contacto</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://www.ucreativa.com/" class="text-white">Universidad</a></li>
+                <li><a href="https://getbootstrap.com/" class="text-white">Bootstrap</a></li>
+                <li><a href="https://www.w3schools.com/" class="text-white">W3 Schools</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <strong >Carlos M. Leiton U.</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Componentes Bootstrap</h1>
+            <p class="lead text-muted">En este proyecto podras encontras algunas de las diferentes 
+              funciones que se pueden utilizar con bootstrap.</p>
+          </div>
+        </div>
+      </section>
+    
+      
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+            <!-- Accordion -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Accordion.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Accordion</h5>
+                  <p class="card-text">Un acordeón es un conjunto de encabezados interactivos apilados 
+                    horizontal o verticalmente que muestran y ocultan paneles plegables, cada panel contiene 
+                    una sección del contenido.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Accordion.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Alerts -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Alerts.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Alerts</h5>
+                  <p class="card-text">Las Alerts, son un tipo de notificacion o aviso el cual 
+                    se utiliza para avisar al usuario sobre algo importante, las alerts pueden 
+                    anunciar, aprovacion, peligro, cuidado, etc.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Alerts.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Notifications -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Notifications.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Notifications</h5>
+                  <p class="card-text">Son pequeños iconos o indicadores mediante los cuales se le informa algo al usuario</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Notifications.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Information -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Information.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Information</h5>
+                  <p class="card-text">Tienen como objetivo informar al usario sobre la paginación y la posicion en el sitio </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Information.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Buttons.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Buttons</h5>
+                  <p class="card-text">Es un elemento cliqueable de tipo botón que puede ser utilizado en formularios 
+                    o en cualquier parte de la página que necesite.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Buttons.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Card.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Card</h5>
+                  <p class="card-text">Un Card es un apartado en el cual se pueden agregar multiples objetos como lo 
+                    son imagenes, botones, links, textos, etc.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Card.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Carousel -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Carousel.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Carousel</h5>
+                  <p class="card-text">Un Carousel es una espacion el el cual se puede presentar 
+                    diversa informacion de manera vistosa para el usuario asi como lo pueden ser imagenes.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Carousel.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Collapse -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Collapse.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Collapse</h5>
+                  <p class="card-text">El Collapse es un elemento plegable que se muestra luego de precionar un espacio 
+                    determinado, usualmente un boton.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Collapse.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dropdowns -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Dropdowns.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Dropdowns</h5>
+                  <p class="card-text">Un Dropdown es un elemento o lista que se sobrepone para mostar listas y enlases.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Dropdowns.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- List_group -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/List_group.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">List group</h5>
+                  <p class="card-text">El list groups es un componente de utilidad ya que permite mostar informacion
+                     en fomar de lista lo cual facilita la vista para el usuario.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/List_group.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Modal.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Modal</h5>
+                  <p class="card-text">El Modal una funcion en forma de cuadro de dialogo emergente, una de sus funciones es el uso de Notificacíon</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Modal.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Nav and tabs -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Navs_and_tabs.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Navs and tabs</h5>
+                  <p class="card-text">Los navs son una seccion utilizada para proporcionar enlaces de navegacion al usuario.</p>
+                  <p class="card-text">Los tabs son un recurso utilizado paa organizar los contenidos web</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Navs_and_tabs.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navbar -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Navbar.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Navbar</h5>
+                  <p class="card-text">La Navbar es un elemento de la interfaz del usuario dentro 
+                    de una página web que contiene enlaces a otras secciones del sitio web.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Navbar.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Offcanvas -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Offcanvas.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Offcanvas</h5>
+                  <p class="card-text">Un offcanvas es una barra lateral oculta que se hará visible cuando se dispare un evento. 
+                    Muy útil en dispositivos móviles donde tenemos poco espacio en pantalla ya que facilitara la navegacion 
+                    entre las paginas de un sitio web.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Offcanvas.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Placeholder -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Placeholder.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Placeholder</h5>
+                  <p class="card-text">
+                    El atributo de marcador de posición especifica una pequeña pista que describe el valor esperado de un campo de entrada 
+                    (por ejemplo, un valor de muestra o una breve descripción del formato esperado).</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Placeholder.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Popovers -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Popovers.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Popovers</h5>
+                  <p class="card-text">El popover es un tipo de cuadro emegentes que 
+                    surge al enviar un evento como precionar un boton, funciona para notificar o avisar algo al usuario.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Popover.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Progress -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Progress.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Progress</h5>
+                  <p class="card-text">Los Progress son barras de carga que su 
+                    pueden utilizar para mostrañe al usuario el avance de un item, componente, etc.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Progress.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Scrollspy -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Scrollspy.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Scrollspy</h5>
+                  <p class="card-text">Scrollspy es un complemento de arranque que actualiza automáticamente los enlaces en una 
+                    lista de navegación según la posición de desplazamiento actual.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Scrollpy.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Toasts -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Toasts.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Toasts</h5>
+                  <p class="card-text">El componente Toast es como un cuadro de alerta que solo se muestra 
+                    durante un par de segundos cuando sucede algo (es decir, cuando el usuario hace clic en un botón,
+                     envía un formulario, etc.).</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Toasts.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tooltips -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Tooltips.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Tooltips</h5>
+                  <p class="card-text">Tooltip es un pequeño cuadro emergente que aparece cuando el usuario mueve el puntero 
+                    del mouse sobre un elemento</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Tooltips.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tables -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Tables.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Tables</h5>
+                  <p class="card-text">Las tables le permiten agregar una gran cantidad de datos y presentarlos de manera
+                    clara y ordenada para facilidad del usuario</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Tables.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Forms -->
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="asserts/img/Forms.png" class="card-img-top" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title">Forms</h5>
+                  <p class="card-text">Un formulario es un conjunto de controles (botones, cajas de texto, 
+              casillas de verificación, botones radio, etc) que permiten al usuario introducir datos y enviarlos 
+              al servidor web para su procesamiento.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a type="button"   class="btn btn-sm btn-outline-secondary" href="Components/Forms.html">Ver</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    
+    </main>
+
+    <footer class="text-muted py-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="index.html">Volver a la Pagina Principal</a>
+        </p>
+        <p class="mb-1">Proyecto Final - Carlos M. Leiton U. &copy; Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
