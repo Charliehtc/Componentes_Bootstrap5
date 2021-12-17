@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>List groups</title>
+  </head>
+  <body>
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">Sobre mi</h4>
+              <p class="text-muted">Estudiante de una Certificación Técnica en Desarrollo Web Full Stack,
+                actualmente estoy en un curso de Diseño de paginas web con bootstrap.</p>
+              <p class="text-muted">En este curso he logrado aprender sobre como utilizar bootstrap y conocer sus 
+                diversas utilidades para el Desarrollo web.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contacto</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://www.ucreativa.com/" class="text-white">Universidad</a></li>
+                <li><a href="https://getbootstrap.com/" class="text-white">Bootstrap</a></li>
+                <li><a href="https://www.w3schools.com/" class="text-white">W3 Schools</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="../index.html" class="navbar-brand d-flex align-items-center">
+            <strong>Carlos M. Leiton U.</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" 
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-12 col-md-8 mx-auto">
+            <h1 class="fw-light">List groups</h1>
+            <p class="lead text-muted">El list groups es un componente de utilidad ya que permite mostar informacion
+              en fomar de lista lo cual facilita la vista para el usuario.</p>
+          </div>
+        </div>
+      </section>
+    
+      
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center" id="mb50">Ejemplos de List groups</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-1">
+            
+            
+            <div style="padding: 25px;">
+              <h3 class="text-center" style="margin-bottom: 25px;">Ejemplo 1</h3>
+              <h4>Top 10 de comidas Italianas </h4>
+              <label style="color: red;">**Se puede precionar los nombres de las comidas**</label>
+              <div class="list-group">
+                <a href="https://comidasperuanas.net/wp-content/uploads/2020/10/Lasagna.jpg" class="list-group-item list-group-item-action list-group-item-primary">Lasagna</a>
+                <a href="https://www.recetasderechupete.com/wp-content/uploads/2017/01/pizza_margarita.jpg?width=1200&enable=upscale" class="list-group-item list-group-item-action list-group-item-secondary">Pizza</a>
+                <a href="https://www.hazteveg.com/img/recipes/full/201305/R16-77309.jpg" class="list-group-item list-group-item-action list-group-item-success">Ravioles</a>
+                <a href="https://cdn.colombia.com/gastronomia/2012/08/01/risotto-con-verduras-3480.jpg" class="list-group-item list-group-item-action list-group-item-danger">Risotto</a>
+                <a href="https://www.glutenfreefollowme.com/wp-content/uploads/2017/07/v7QHJoIASkKpFD6vtVpJxw-1920x1080.jpg" class="list-group-item list-group-item-action list-group-item-warning">Ensalada Capresse</a>
+                <a href="https://www.cocinayvino.com/wp-content/uploads/2018/12/12958638_m-e1546024143632.jpg" class="list-group-item list-group-item-action list-group-item-info">Tiramisú</a>
+                <a href="https://saboryestilo.com.mx/wp-content/uploads/2020/09/receta-Gelato-1200x720.jpg" class="list-group-item list-group-item-action list-group-item-light">Gelato</a>
+                <a href="https://cdn5.recetasdeescandalo.com/wp-content/uploads/2018/10/Panacota-o-panna-cotta-receta-del-clasico-postre-italiano-de-nata.jpg" class="list-group-item list-group-item-action list-group-item-dark">Panna Cotta</a>
+                <a href="https://dam.cocinafacil.com.mx/wp-content/uploads/2018/10/fetuccini-con-salsa-de-jitomate-y-atun.jpg" class="list-group-item list-group-item-action">Fetuccini</a>
+              </div>
+            </div>
+
+            <div style="padding: 25px">
+              <ol class="list-group list-group-numbered">
+                <h3 class="text-center" style="margin-bottom: 25px;">Ejemplo 2</h3>
+                <h4>Top 5 de Dioces olímpicos</h4>
+                <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Zeus</div>
+                    Dios del rayo y Soberano del Olimpo
+                  </div>
+                  <span class="badge bg-primary rounded-pill">1</span>
+                </li>
+                <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Poseidón</div>
+                    Dios de los mares y océanos
+                  </div>
+                  <span class="badge bg-primary rounded-pill">2</span>
+                </li>
+                <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Hades</div>
+                    Dios del inframundo
+                  </div>
+                  <span class="badge bg-primary rounded-pill">3</span>
+                </li>
+                <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Hermes</div>
+                    El mensajero de los Dioses
+                  </div>
+                  <span class="badge bg-primary rounded-pill">4</span>
+                </li>
+                <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold">Hera</div>
+                    Reina de los Dioses
+                  </div>
+                  <span class="badge bg-primary rounded-pill">5</span>
+                </li>
+              </ol>
+            </div>
+            
+
+
+
+          </div>
+        </div>
+      </div>
+    
+    </main>
+
+    <footer class="text-muted py-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="../index.html">Volver a la Pagina Principal</a>
+        </p>
+        <p class="mb-1">Carlos M. Leiton U. &copy; Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

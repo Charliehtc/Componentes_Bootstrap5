@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Accordion</title>
+  </head>
+  <body>
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">Sobre mi</h4>
+              <p class="text-muted">Estudiante de una Certificación Técnica en Desarrollo Web Full Stack,
+                actualmente estoy en un curso de Diseño de paginas web con bootstrap.</p>
+              <p class="text-muted">En este curso he logrado aprender sobre como utilizar bootstrap y conocer sus diversas 
+                utilidades para el Desarrollo web.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contacto</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://www.ucreativa.com/" class="text-white">Universidad</a></li>
+                <li><a href="https://getbootstrap.com/" class="text-white">Bootstrap</a></li>
+                <li><a href="https://www.w3schools.com/" class="text-white">W3 Schools</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="../index.html" class="navbar-brand d-flex align-items-center">
+            <strong>Carlos M. Leiton U.</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-12 col-md-8 mx-auto">
+            <h1 class="fw-light">Accordion</h1>
+            <p class="lead text-muted">Un acordeón es un conjunto de encabezados interactivos apilados horizontal 
+              o verticalmente que muestran y ocultan paneles plegables, cada panel contiene una sección del contenido. 
+              Estos encabezados pueden tener la forma de un título, una miniatura que caracteriza la sección de contenido 
+              o un fragmento de contenido. Los acordeones crean patrones de diseño ideales para presentar múltiples secciones 
+              de contenido sin tener que desplazarse excesivamente por la página.</p>
+
+            <p class="lead text-muted">Cuando trabaje con acordeones, siempre debe tener en cuenta estos dos términos 
+              fundamentales, el encabezado del acordeón y el panel del acordeón. El encabezado de acordeón es una etiqueta 
+              interactiva o miniatura que revela y oculta el panel de acordeón, que es un panel plegable que contiene la 
+              sección de contenido.</p>
+
+            <p class="lead text-muted">Algunos acordeones incluyen elementos adicionales en el encabezado del acordeón para
+              optimizar la función y mejorar el diseño visual, como botones de menú, íconos o fragmentos del contenido oculto.</p>
+              
+          </div>
+        </div>
+      </section>
+    
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-1">
+
+            <h2 class="text-center">Ejemplos de Accordions</h2>
+
+            <h3>Ejemplo 1</h3>
+            <div class="accordion" id="accordionExample" style="margin-bottom: 50px;">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" 
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Mitología griega
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    La mitología griega es el conjunto de mitos y leyendas pertenecientes a la cultura de la Antigua Grecia, que tratan de sus dioses
+                     y héroes, la naturaleza del mundo, los orígenes y el significado de sus propios cultos y prácticas rituales. Formaban parte de la 
+                     religión de la Antigua Grecia, que tenía como objeto de culto básicamente a los dioses olímpicos. Los investigadores modernos 
+                     recurren a los mitos y los estudian en un intento por arrojar luz sobre las instituciones religiosas y políticas de la antigua 
+                     Grecia y su civilización, así como para entender mejor la naturaleza de la propia creación de los mitos.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Mitología egipcia
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    La mitología egipcia comprende el estudio de creencias sustentadas en la religión del Antiguo Egipto desde la época predinástica 
+                    hasta la imposición del cristianismo, cuando sus prácticas fueron prohibidas en tiempos de Justiniano I, en el año 535.
+                    Su desarrollo e influencia perduraron más de tres mil años, variando lógicamente a través del tiempo; por lo tanto, un artículo o 
+                    incluso un libro, solo puede resumir la multitud de entidades y temas de este sistema complejo de creencias. La variada iconografía 
+                    egipcia es muy diferente de la griega o romana: en la mitología egipcia muchas deidades son representadas con cuerpo humano, y 
+                    cabezas de otros animales.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Mitología nórdica
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    La mitología nórdica es una colección de creencias e historias compartidas por los pueblos germanos septentrionales. 
+                    Es importante señalar que esta mitología no era compartida por los pueblos nórdicos de etnia urálica (fineses, estonios y lapones) 
+                    ni báltica (lituanos y letones), ya que estos poseían una propia, aunque parecida (en especial los bálticos ya que también son una 
+                    rama de pueblos indoeuropeos). No era una religión revelada, pues no había una verdad entregada por los dioses a los mortales 
+                    (a pesar de esto, la mitología nórdica cuenta con relatos sobre personas comunes que han aprendido las historias de los dioses, 
+                    tras ser visitados o tras haberles visitado). Además, no tenía un libro sagrado; esta mitología era transmitida oralmente en forma 
+                    de una larga y regular poesía. Esta transmisión continuó durante la época vikinga, y nuestro conocimiento sobre ella está basado 
+                    principalmente en las Eddas y otros textos medievales escritos durante o después de la cristianización.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h3>Ejemplo 2</h3>
+            <div class="accordion" id="accordionPanelsStayOpenExample" style="margin-bottom: 50px;">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" 
+                  data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    Mitología griega
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">
+                    La mitología griega es el conjunto de mitos y leyendas pertenecientes a la cultura de la Antigua Grecia, que tratan de sus dioses
+                     y héroes, la naturaleza del mundo, los orígenes y el significado de sus propios cultos y prácticas rituales. Formaban parte de la 
+                     religión de la Antigua Grecia, que tenía como objeto de culto básicamente a los dioses olímpicos. Los investigadores modernos 
+                     recurren a los mitos y los estudian en un intento por arrojar luz sobre las instituciones religiosas y políticas de la antigua 
+                     Grecia y su civilización, así como para entender mejor la naturaleza de la propia creación de los mitos.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                  data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Mitología egipcia
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    La mitología egipcia comprende el estudio de creencias sustentadas en la religión del Antiguo Egipto desde la época predinástica 
+                    hasta la imposición del cristianismo, cuando sus prácticas fueron prohibidas en tiempos de Justiniano I, en el año 535.
+                    Su desarrollo e influencia perduraron más de tres mil años, variando lógicamente a través del tiempo; por lo tanto, un artículo o 
+                    incluso un libro, solo puede resumir la multitud de entidades y temas de este sistema complejo de creencias. La variada iconografía 
+                    egipcia es muy diferente de la griega o romana: en la mitología egipcia muchas deidades son representadas con cuerpo humano, y 
+                    cabezas de otros animales.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                  data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Mitología nórdica
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    La mitología nórdica es una colección de creencias e historias compartidas por los pueblos germanos septentrionales. 
+                    Es importante señalar que esta mitología no era compartida por los pueblos nórdicos de etnia urálica (fineses, estonios y lapones) 
+                    ni báltica (lituanos y letones), ya que estos poseían una propia, aunque parecida (en especial los bálticos ya que también son una 
+                    rama de pueblos indoeuropeos). No era una religión revelada, pues no había una verdad entregada por los dioses a los mortales 
+                    (a pesar de esto, la mitología nórdica cuenta con relatos sobre personas comunes que han aprendido las historias de los dioses, 
+                    tras ser visitados o tras haberles visitado). Además, no tenía un libro sagrado; esta mitología era transmitida oralmente en forma 
+                    de una larga y regular poesía. Esta transmisión continuó durante la época vikinga, y nuestro conocimiento sobre ella está basado 
+                    principalmente en las Eddas y otros textos medievales escritos durante o después de la cristianización.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    
+    </main>
+
+    <footer class="text-muted py-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="../index.html">Volver a la Pagina Principal</a>
+        </p>
+        <p class="mb-1">Carlos M. Leiton U. &copy; Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

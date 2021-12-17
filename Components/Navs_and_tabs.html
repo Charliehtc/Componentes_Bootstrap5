@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Navs and tabs</title>
+  </head>
+  <body>
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">Sobre mi</h4>
+              <p class="text-muted">Estudiante de una Certificación Técnica en Desarrollo Web Full Stack,
+                actualmente estoy en un curso de Diseño de paginas web con bootstrap.</p>
+              <p class="text-muted">En este curso he logrado aprender sobre como utilizar bootstrap y conocer sus diversas 
+                utilidades para el Desarrollo web.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contacto</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://www.ucreativa.com/" class="text-white">Universidad</a></li>
+                <li><a href="https://getbootstrap.com/" class="text-white">Bootstrap</a></li>
+                <li><a href="https://www.w3schools.com/" class="text-white">W3 Schools</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="../index.html" class="navbar-brand d-flex align-items-center">
+            <strong>Carlos M. Leiton U.</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-12 col-md-8 mx-auto">
+            <h1 class="fw-light">Navs and tabs</h1>
+            <p class="lead text-muted">Los navs son una seccion utilizada para proporcionar enlaces 
+              de navegacion al usuario.</p>
+              <p class="lead text-muted">Los tabs son un recurso utilizado paa organizar los contenidos web</p>
+          </div>
+        </div>
+      </section>
+    
+      
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center" id="mb50">Ejemplos de Navs and tabs </h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-1">
+
+            <div>
+              <h3 class="text-center" style="margin-bottom: 25px;">Ejemplo Navs</h3>
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="https://www.ucreativa.com/">U creativa</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://getbootstrap.com/">Bootstrap</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="https://www.w3schools.com/" tabindex="-1" aria-disabled="true">W3 Schools</a>
+                </li>
+              </ul>
+           </div>
+
+           <div>
+            <h3 class="text-center" style="margin-bottom: 25px;">Ejemplo Tabs</h3>
+            <!-- Nav tabs -->
+              <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" data-bs-toggle="tab" href="#about">Sobre mi </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#contact">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#nyt">Navs and Tabs</a>
+                </li>
+              </ul>
+
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div class="tab-pane container active" id="about">Estudiante de una Certificación Técnica en Desarrollo Web Full Stack, 
+                  actualmente estoy en un curso de Diseño de paginas web con bootstrap.
+                  En este curso he logrado aprender sobre como utilizar bootstrap y conocer sus diversas utilidades 
+                  para el Desarrollo web.</div>
+                <div class="tab-pane container fade" id="contact">
+                  <li><a href="https://www.ucreativa.com/" class="text">Universidad</a></li>
+                  <li><a href="https://getbootstrap.com/" class="text">Bootstrap</a></li>
+                  <li><a href="https://www.w3schools.com/" class="text">W3 Schools</a></li>
+                </div>
+                <div class="tab-pane container fade" id="nyt">
+                  <p>Los navs son una seccion utilizada para proporcionar enlaces de navegacion al usuario.</p>
+
+                  <p>Los tabs son un recurso utilizado paa organizar los contenidos web</p>
+                </div>
+              </div>
+           </div>
+
+          </div>
+        </div>
+      </div>
+    
+    </main>
+
+    <footer class="text-muted py-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="../index.html">Volver a la Pagina Principal</a>
+        </p>
+        <p class="mb-1">Carlos M. Leiton U. &copy; Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
